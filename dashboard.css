@@ -1,0 +1,318 @@
+body{
+  background-color: white;
+}
+.Header{
+  margin-top: -8px;
+  margin-left: -8px;
+  background-color: black;
+  width: 102%;
+  height: 50px;
+  color: white;
+}
+a:visited, a:link {
+  text-decoration: none;
+  background-color: none;
+  float: right;
+  margin: 12px;
+  margin-right: 40px;
+  color: white;
+}
+a:hover, a:active {
+  color: red;
+}
+
+input[type:text] {
+  
+}
+
+.search {
+  float: right;
+  padding: 6px;
+  width: 80%;
+  position: relative;
+  display: flex;
+}
+
+.searchTem {
+  margin-top: 0px;
+  margin-left: 130px;
+  width: 80%;
+  border: 3px solid blue;
+  border-right: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: black;
+  position: relative;
+}
+
+.searchTem:focus {
+  color: blue;
+}
+
+.searchButton {
+  width: 60px;
+  height: 36px;
+  border: 3px solid blue;
+  background: blue;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: blue;
+}
+
+.navigation{
+  background-color: white;
+  width: 100%;
+  height: 40px;
+}
+
+.content{
+  background-color: white;
+  width: 1000px;
+  height: 600px;
+  margin-left: 60px;
+}
+
+.sidebar{
+  background-color: white;
+  margin-top: 3px;
+  height: 600px;
+  width: 400px;
+  float: right;
+}
+
+img{
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+td.foto{
+  height: 600px;
+  position: absolute;
+  top: auto;
+}
+
+td.judul{
+  font-family: sans-serif;
+  font-weight: bold;
+  height: 100px;
+  width: 700px;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.harga{
+  font-family: sans-serif;
+  font-weight: bold;
+  height: 60px;
+  width: 700px;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 150px;
+  font-size: 40px;
+}
+
+.stok_barang{
+  font-family: sans-serif;
+  font-weight: bold;
+  height: 60px;
+  width: 700px;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 220px;
+  font-size: 16px;
+}
+
+.a{
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.beli{
+  font-family: sans-serif;
+  font-weight: bold;
+  height: 40px;
+  width: 700px;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 290px;
+  font-size: 16px;
+}
+
+.beli_sekarang{
+  width: 700px;
+  height: 40px;
+  text-decoration: none;
+  color: white;
+  outline: none;
+  background-color: #4CAF50;
+  border: none;
+}
+
+.tambah_Kekeranjang{
+  width: 350px;
+  height: 40px;
+  text-decoration: none;
+  background-color: lightgray;
+  border: none;
+  margin-top: 5px;
+}
+
+.chat_pelapak{
+width: 340px;
+height: 40px;
+text-decoration: none;
+background-color: lightgray;
+border: none;
+position: absolute;
+top: 46px;
+left: 350px;
+margin-left: 10px;
+}
+
+.nanya{
+  position: absolute;
+  top: 485px;
+  left: 340px;
+  border-radius: 30px;
+}
+
+.jaminan{
+  position: absolute;
+  top: 540px;
+  left: 340px;
+}
+
+.c{
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.content1{
+  background-color: white;
+  height: 500px;
+  width: 1000px;
+  margin-top: 650px;
+}
+
+td{
+  width: 150px;
+}
+.a{
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 150px;
+  height: 200px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+img{
+  height: auto;
+  margin-left: -2px;
+  margin-top: -11px;
+  margin-right: -2px;
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: -12px;
+}
+
+
+.b{
+  position: absolute;
+  top: 110px;
+  left: 190px;
+  width: 150px;
+  height: 200px;
+  background-color: #ddd;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.drop{
+  text-align: center;
+  background-color: rgba(77,77,77,0.7);
+  
+  padding: 6px;
+  border: 2px solid #3498db;
+  width: 500px;
+  position: absolute;
+  top: 1.5%;
+  border-left: 0;
+  border-top: 0;
+}
+
+button.cari-kategori, button.cari {
+  padding: 4px;
+  width: 60px;
+  background: #333;
+  color: #3498db;
+  border: 2px #3498db solid;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+select{
+  border-radius: 6px;
+}
+
+select:focus{
+  border: #2ecc71;
+
+}
+
+button.cari-kategori:hover, button.cari:hover{
+  background: #3498db;
+  color: white;
+}
+
+.c{
+  position: absolute;
+  top: 350px;
+  left: 190px;
+  width: 150px;
+  height: 200px;
+  background-color: #ddd;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.d{
+  position: absolute;
+  top: 110px;
+  left: 360px;
+  width: 150px;
+  height: 200px;
+  background-color: #ddd;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.e{
+  position: absolute;
+  top: 350px;
+  left: 360px;
+  width: 150px;
+  height: 200px;
+  background-color: #ddd;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.produk{
+  width: 200px;
+  height: 260px;
+  float: left;
+}
+.gambar{
+  width: 150px;
+  height: 150px;
+}
