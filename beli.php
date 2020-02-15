@@ -378,7 +378,6 @@ if (isset($_POST["sorting"])&&$_POST["sorting"]!="") {
   </div>
 </nav>
 
-<div class="container">
   <?php foreach ($barang as $data): ?>
   <div class="tabel" >
     <a href="deskripsi2.php?id_barang=<?= $data['id_barang']?>" class="link">
@@ -402,7 +401,7 @@ if (isset($_POST["sorting"])&&$_POST["sorting"]!="") {
   </a>
   </div>
 <?php endforeach; ?>
-</div>
+
 
   <div class="content1">
 
